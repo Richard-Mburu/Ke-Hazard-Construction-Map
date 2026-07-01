@@ -60,6 +60,7 @@ __pycache__/
 *.db
 
 # Local database
+data/
 data/weather.db
 *.db
 
@@ -69,3 +70,13 @@ data/weather.db
 .cache/
 tmp/
 temp/
+
+# ===========================
+# Secrets and Local Config
+# ===========================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
