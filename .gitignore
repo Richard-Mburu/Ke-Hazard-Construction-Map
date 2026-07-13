@@ -59,10 +59,9 @@ __pycache__/
 *.sqlite3
 *.db
 
-# Local database
-data/
+# Static CSV/JSON/GeoJSON files in data/ are required by GitHub Pages.
+# Keep only local database files out of the repository.
 data/weather.db
-*.db
 
 # ===========================
 # Local Cache
